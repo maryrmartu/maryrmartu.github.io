@@ -1,0 +1,475 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/x-icon" href="Favicon.png">
+<style>
+body {
+  margin: 0;
+  font-family: Outfit regular, Roboto, Helvetica, sans serif;
+}
+/* Sfondo di sotto */
+body {
+  margin: 0;
+  background-color: #292E33;
+}
+
+/* MaryAIC */
+h1 {
+  color: #00E1FF;
+font-family:  Outfit regular, Helvetica, sans serif;
+font-size: 60px;
+ text-align: center;
+}
+
+h2 {
+  color: #ffffff;
+font-family: Outfit ExtraLight, Helvetica, sans serif;
+font-size: 30px;
+ text-align: center;
+}
+
+p {
+  color: #ffffff;
+font-family: Outfit ExtraLight, Helvetica, sans serif;
+font-size: 30px;
+ padding: 0 100px;
+}
+
+h5 {
+  color: #292E33;
+font-family: Outfit ExtraLight, Helvetica, sans serif;
+font-size: 30px;
+ text-align: center;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #212529;
+  justify-content: space-evenly;
+}
+
+h7 {
+  color: #ffffff;
+font-family: Outfit ExtraLight, Helvetica, sans serif;
+font-size: 20px;
+ text-align: center;
+ padding: 0 100px;
+}
+
+#logo{
+    margin-top: 2.5rem;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 44px 75px;
+  text-decoration: none;
+position: relative;
+font-family: Outfit Regular, Helvetica, sans serif;
+font-size: 27px;
+
+}
+
+.topnav a:hover {
+background-color: #292E33;
+  color: #00E1FF;
+  transform: scale(1.1);
+  transition: 0.3s;
+  opacity: 0.6;
+}
+
+
+.topnav a.active {
+  background-color: #292E33;
+  color: white;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+
+/* DROPDOWN */
+.dropdown {
+  float: left;
+  overflow: hidden;
+    display: flex;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 27px;  
+  border: none;
+  outline: none;
+  color: white;
+padding: 44px 75px;
+  background-color: inherit;
+  font-family: Outfit Regular, Helvetica, sans serif;
+  margin: 0;
+}
+
+.dropdown:hover {
+  background-color: #292E33;
+    transform: scale(1.1);
+  transition: 0.3s;
+  color: #00E1FF;
+
+}
+ dropbtn, .dropbtn:focus {
+background-color: #292E33;
+    transform: scale(1);
+  transition: 0.3s;
+  color: #00E1FF;
+    opacity: 0.6;
+
+}
+  .dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #292E33;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    color: #00E1FF;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+padding: 12px 20px;
+  text-decoration: none;
+  display: block;
+  min-width: 160px;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #292E33;
+  transform: scale(1);
+  transition: 0.3s;
+    opacity: 0.6;
+}
+.show {
+  display: block;
+}
+@media screen and (min-width: 481px) {
+h1, h2, p, h5 {
+    font-size: 40px;
+  }
+    h7 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1, h2, p, h5 {
+    font-size: 25px;
+  }
+  h7 {
+    font-size: 20px;
+  }
+</style>
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+<div class="topnav">
+<div class="flex-container">
+<a href="index.html">MaryAIC</a>
+  <a href="2_1_Artwork.html">Artwork</a>
+<div class="dropdown">
+  <button class="dropbtn" onclick="myFunction()">C.D.S.
+   <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content" id="myDropdown">
+   <a href="3_1_1_CSD_illustrations.html">Illustrations</a>
+    <a href="3_2_1_CSD_characters.html">Characters</a>
+      </div>
+      </div>
+  <a href="4_1_Timelapse.html">Timelapse</a>
+  <a href="5_1_Social.html">Socials</a>
+  <a href="6_1_AboutMe.html">About me</a>
+</div>
+  </div>
+</div>
+
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>
+</br></br>
+      <center><div id="logo"><img src="https://res.cloudinary.com/dtqx8y3n5/image/upload/v1655117036/inestazione_gufnjr.png" style="width: 250px" alt="MaryAIC"></div></center>
+	  </br></br>
+<center><img src="https://res.cloudinary.com/dtqx8y3n5/image/upload/v1654085419/IconaSito_wmdkeq.png" style="width: 40px"></center>
+<h2>Artwork</h2>
+
+<center><h2>Welcome to my artwork page!</br>
+Here there are a series of artworks of mine, you'll find a bunch of original art and fanarts!</h2></center>
+<h7><center>double tap to view an image</center></h7>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Outfit, Helvetica, sans serif;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 5px;
+}
+div.column img:hover {
+cursor: pointer;
+  background-color: #00E1FF;
+  border-radius: 7px;
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+footer {
+    color: white;
+    background-color: #212529;
+    padding: 1em 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* MODAL */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0.9)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0.9)} 
+  to {transform:scale(1)}
+}
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+.barrainf {
+color: white;
+margin: 50px;
+background-color: #212529;
+ padding: 15px 75px;
+}
+
+A:LINK {
+ color : #00E1FF;
+ text-decoration: none
+}
+
+
+A:HOVER {
+ color : #e8b833;
+}
+
+A:ACTIVE {
+ color : #e8b833;
+}
+</style>
+<body>
+
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    	<img src="2_1A.PNG" style="width:100%" id="1" onClick="getModal(this.id)">
+	    <img src="2_5A.PNG" style="width:100%" id="5" onClick="getModal(this.id)">
+	    <img src="2_9A.PNG" style="width:100%" id="9" onClick="getModal(this.id)">
+	    <img src="2_13A.PNG" style="width:100%" id="13" onClick="getModal(this.id)">
+	    <img src="2_17A.PNG" style="width:100%" id="17" onClick="getModal(this.id)">
+	    <img src="2_21A.PNG" style="width:100%" id="21" onClick="getModal(this.id)">
+	    <img src="2_25A.PNG" style="width:100%" id="25" onClick="getModal(this.id)">
+		<img src="2_26A.PNG" style="width:100%" id="26" onClick="getModal(this.id)">
+	  </div>
+  
+  <div class="column">
+      <img src="2_2A.PNG" style="width:100%" id="2" onClick="getModal(this.id)">
+	    <img src="2_6A.PNG" style="width:100%" id="6" onClick="getModal(this.id)">
+	    <img src="2_10A.PNG" style="width:100%" id="10" onClick="getModal(this.id)">
+	    <img src="2_14A.PNG" style="width:100%" id="14" onClick="getModal(this.id)">
+	    <img src="2_18A.PNG" style="width:100%" id="18" onClick="getModal(this.id)">
+	    <img src="2_22A.PNG" style="width:100%" id="22" onClick="getModal(this.id)">
+		<img src="2_23A.PNG" style="width:100%" id="23" onClick="getModal(this.id)">
+		<img src="2_29A.PNG" style="width:100%" id="29" onClick="getModal(this.id)">
+	  </div>  
+	  
+  <div class="column">
+      <img src="2_3A.PNG" style="width:100%" id="3" onClick="getModal(this.id)">
+	    <img src="2_7A.PNG" style="width:100%" id="7" onClick="getModal(this.id)">
+	    <img src="2_11A.PNG" style="width:100%" id="11" onClick="getModal(this.id)">
+	    <img src="2_15A.PNG" style="width:100%" id="15" onClick="getModal(this.id)">
+	    <img src="2_19A.PNG" style="width:100%" id="19" onClick="getModal(this.id)">
+		<img src="2_27A.PNG" style="width:100%" id="27" onClick="getModal(this.id)">
+	  </div>
+	  
+  <div class="column">
+      <img src="2_4A.PNG" style="width:100%" id="4" onClick="getModal(this.id)">
+    <img src="2_8A.PNG" style="width:100%" id="8" onClick="getModal(this.id)">
+	    <img src="2_12A.PNG" style="width:100%" id="12" onClick="getModal(this.id)">
+	    <img src="2_16A.PNG" style="width:100%" id="16" onClick="getModal(this.id)">
+	    <img src="2_20A.PNG" style="width:100%" id="20" onClick="getModal(this.id)">
+	    <img src="2_24A.PNG" style="width:100%" id="24" onClick="getModal(this.id)">
+		<img src="2_28A.PNG" style="width:100%" id="28" onClick="getModal(this.id)">
+	  </div>
+</div>
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+</br>
+<br><h7><center>Do you want to contact me? Send an email to <a href="mailto:maryaicdraw@gmail.com"><b>maryaicdraw@gmail.com</b></a></center></h7></br>
+<footer>
+<br><h7><center>MaryAIC copyright 2022</center></h7></br>
+</footer>
+
+<script>
+
+function getModal(imgid){
+	var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById(imgid);
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none"; 
+}
+
+
+}
+
+
+</script>
+</body>
+</html>
